@@ -1,0 +1,37 @@
+/* [data-type="primary"] {
+    background-color: red;
+}
+
+[data-type] {
+    color: blue;
+    padding: 10px;
+}
+
+[data-type='secondary'] {
+    background-color: purple;
+}
+
+section {
+    margin-bottom: 15px;
+} */
+
+a[href$=".pdf"]::before {
+    background-image: url(https://web-dev.imgix.net/image/VbAJIREinuYvovrBzzvEyZOpw5w1/fc7bLiJYf5US6QxTOKsF.png);
+}
+
+a[href$=".jpg"]::before,
+a[href$=".png"]::before {
+    background-image: url(https://web-dev.imgix.net/image/VbAJIREinuYvovrBzzvEyZOpw5w1/N79qCc0c06217YT4ofYM.png);
+}
+
+
+a::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.2em;
+    height: 1.2em;
+    background-size: 100%;
+    margin-inline-end: 0.5em;
+    opacity: 0.8;
+}

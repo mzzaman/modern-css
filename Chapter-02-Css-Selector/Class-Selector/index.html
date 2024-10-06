@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article>
+        <p class="red">This paragraph has red text.</p>
+        <p class="red yellow-bg">
+            This paragraph has red text and a yellow background.
+        </p>
+        <p class="red fancy">This paragraph has red text and "fancy" styling.</p>
+        <p>This is just a regular paragraph.</p>
+
+    </article>
+
+    <article>
+        <!-- The next two paragraphs have class attributes
+that contain characters which must be escaped in CSS -->
+
+        <p class="item?one">This paragraph has a pink background.</p>
+        <p class="123item">This paragraph has a yellow background.</p>
+
+    </article>
+</body>
+
+</html>

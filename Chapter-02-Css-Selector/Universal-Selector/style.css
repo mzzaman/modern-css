@@ -1,0 +1,31 @@
+* {
+    color: blue;
+    background-color: pink;
+    padding: 3px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+
+* [lang^="en"] {
+    color: green;
+}
+
+*.warning {
+    color: #ca1dec;
+}
+
+*#maincontent {
+    border: 1px solid blue;
+    padding: 3px;
+}
+
+.floating {
+    float: left;
+}
+
+/* automatically clear the next sibling after a floating element */
+.floating+* {
+    clear: left;
+}

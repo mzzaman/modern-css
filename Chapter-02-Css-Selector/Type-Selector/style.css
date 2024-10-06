@@ -1,0 +1,20 @@
+/* Remove All Margin and Padding with Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style Paragraph using Type Selector */
+p {
+    color: red;
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* Style Span tag using type selector */
+span {
+    color: blue;
+    font-size: 18px;
+    background-color: aqua;
+    padding: 15px;
+}

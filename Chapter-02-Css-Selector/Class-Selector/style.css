@@ -1,0 +1,34 @@
+/* Remove All Margin And Padding Using Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style All HTML Tag using Class Attribute */
+
+.red {
+    color: red;
+}
+
+.yellow-bg {
+    background-color: yellow;
+}
+
+.fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+/* In the next two rules, the class attributes must be escaped */
+
+.item\?one {
+    background-color: pink;
+    padding: 1rem;
+    margin-bottom: 5px;
+}
+
+.\00003123item {
+    background-color: yellow;
+    padding: 1rem;
+    margin-top: 5px;
+}
