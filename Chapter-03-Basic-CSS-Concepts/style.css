@@ -1,0 +1,35 @@
+/* Remove All Margins And Padding Using Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    background-color: red;
+    margin: 5rem;
+    padding: 5rem;
+}
+
+.margin {
+    margin: 2rem;
+    background-color: brown;
+
+}
+
+.border {
+    border: 2px solid salmon;
+    background-color: blueviolet;
+}
+
+.padding {
+    padding: 5rem;
+    background-color: aqua;
+}
+
+.content {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: darkgrey;
+
+}
